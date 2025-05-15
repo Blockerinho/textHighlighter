@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Evidenziatore Testo",
+  "version": "1.0",
+  "description": "Evidenzia il testo selezionato. Clicca due volte per rimuoverlo.",
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ],
+  "browser_action": {
+    "default_title": "Evidenziatore",
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "48": "icon.png"
+  }
+}
